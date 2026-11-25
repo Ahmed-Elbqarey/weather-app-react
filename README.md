@@ -43,3 +43,5 @@ A React weather app. Search for a city and see its current weather.
 Open http://localhost:3000.
 
 Note: Create React App inlines these keys into the browser bundle, so they are visible to anyone using the site. Use free, low-limit keys.
+
+License: MIT
