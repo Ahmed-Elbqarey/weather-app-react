@@ -4,7 +4,7 @@ A React weather app. Search for a city and see its current weather.
 
 **Live demo:** https://weather-status-beta.vercel.app
 
-![Weather App screenshot](./screenshot.png)
+![Weather App screenshot](./1-screenshot.png)
 
 ## Features
 
