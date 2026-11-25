@@ -1,0 +1,85 @@
+.weather .card {
+  background: transparent;
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: white;
+  overflow: hidden;
+}
+.container {
+  width: 100% !important;
+}
+.defultWeather svg {
+  width: 150px;
+  height: fit-content;
+}
+.temperature,
+.location,
+.time {
+  padding: 20px;
+}
+.time {
+  position: relative;
+  font-size: 15px;
+}
+.time::after {
+  content: "";
+  position: absolute;
+  width: 550px;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temperature svg,
+.location svg,
+.time svg {
+  width: 25px;
+  height: auto;
+  margin-right: 20px;
+}
+.time svg {
+  fill: white;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.info {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.info_kit {
+  border-right: 1px solid rgb(255, 255, 255);
+  padding-right: 15px;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+form {
+  padding: 10px 0;
+}
+input#\:r1\: {
+  color: #fff;
+}
+label#\:r1\:-label {
+  color: white;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  fill: white;
+}
+fieldset.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+
+button {
+  margin: 5px auto;
+}
